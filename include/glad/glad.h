@@ -1,1 +1,1 @@
-// Header glad.h
+// glad.h

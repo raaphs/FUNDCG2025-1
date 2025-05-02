@@ -1,1 +1,1 @@
-// Header khrplatform.h
+// khrplatform.h
