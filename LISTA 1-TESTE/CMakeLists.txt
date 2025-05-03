@@ -47,13 +47,11 @@ include_directories(${stb_image_SOURCE_DIR})
 
 # Lista de exemplos/exercícios podem ser colocados aqui também
 set(EXERCISES
-    HelloTriangle
-    HelloTransform
-    EX7
-    HelloTexture
     EX6
-    Lista1/Ex6
-    Lista1/Ex9
+    EX7
+    EX8
+    EX9
+    EX10
 )
 
 add_compile_options(-Wno-pragmas)
