@@ -1,0 +1,8 @@
+VBO (Vertex Buffer Object): é o buffer que contém os dados dos vértices.
+VAO (Vertex Array Object): organiza como esses dados devem ser lidos (por exemplo: quais dados são posição, cor, etc).
+
+Relação: O VAO referencia um ou mais VBOs e define como os dados devem ser lidos por cada shader.
+Gráfico simplificado:
+    VAO
+        VBO (posição dos vértices)
+        VBO (cor dos vértices, se houver)
