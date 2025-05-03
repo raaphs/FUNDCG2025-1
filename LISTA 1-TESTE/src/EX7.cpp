@@ -59,7 +59,7 @@ std::vector<float> generateStar(int points, float innerR, float outerR, float cx
 }
 
 int main() {
-    // Inicialização GLFW + contexto
+    //Inicialização GLFW + contexto
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -78,7 +78,7 @@ int main() {
         return -1;
     }
 
-    // Gerando vértices
+    //Gerando vértices
     std::vector<float> circleVertices   = generatePolygonVertices(100, 0.4f,  0.0f,  0.0f);
     std::vector<float> octagonVertices  = generatePolygonVertices(8,   0.3f, -0.6f,  0.5f);
     std::vector<float> pentagonVertices = generatePolygonVertices(5,   0.3f,  0.6f, -0.5f);
@@ -103,7 +103,7 @@ int main() {
         glEnableVertexAttribArray(0);
     }
 
-    // Shaders
+    //Shaders
     const char* vertexShaderSource = R"(
         #version 330 core
         layout (location = 0) in vec3 aPos;
@@ -132,7 +132,7 @@ int main() {
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
-    // Loop de renderização
+    //Loop de renderização
     while (!glfwWindowShouldClose(window)) {
         glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
@@ -147,7 +147,7 @@ int main() {
         glfwPollEvents();
     }
 
-    // Cleanup
+    //Cleanup
     glDeleteVertexArrays(6, VAOs);
     glDeleteBuffers(6, VBOs);
     glDeleteProgram(shaderProgram);
