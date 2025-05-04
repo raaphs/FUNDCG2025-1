@@ -1,4 +1,0 @@
-Primitivas gráficas são formas básicas que a GPU entende e pode desenhar: pontos, linhas e triângulos.
-Na OpenGL, os vértices são armazenados em buffers de dados na GPU. Utilizamos principalmente dois objetos:
-    VBO (Vertex Buffer Object): armazena os dados dos vértices (posição, cor, etc.).
-    VAO (Vertex Array Object): encapsula as configurações de como os dados no VBO devem ser interpretados (como layout dos atributos).

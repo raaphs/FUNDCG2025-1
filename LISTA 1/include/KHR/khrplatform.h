@@ -1,1 +1,0 @@
-// khrplatform.h

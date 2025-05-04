@@ -1,9 +1,0 @@
-Chamadas de desenho são feitas com funções como:
-    glDrawArrays(GL_TRIANGLES, 0, 3);
-ou
-    glDrawElements(...);
-Essas chamadas dizem à GPU para desenhar a partir dos dados de vértices com base em um tipo de primitiva gráfica, como:
-    GL_POINTS
-    GL_LINES
-    GL_TRIANGLES
-Cada tipo define como os vértices devem ser conectados visualmente.

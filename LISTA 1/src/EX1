@@ -1,4 +1,0 @@
-GLSL (OpenGL Shading Language) é a linguagem de programação usada para escrever shaders no pipeline gráfico da OpenGL. Ela é baseada em C e permite programar diretamente como vértices e pixels (fragmentos) são processados.
-Os dois shaders obrigatórios no pipeline programável são
-  Vertex Shader - processa cada vértice individualmente. Ele transforma a posição dos vértices (geralmente com matrizes de modelo, visão e projeção) e pode passar atributos para o próximo estágio.
-  Fragment Shader - processa cada fragmento gerado por rasterização dos triângulos. Ele calcula a cor final de cada pixel na tela.
